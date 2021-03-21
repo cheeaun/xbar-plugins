@@ -5,7 +5,7 @@
 # <bitbar.author>Lim Chee Aun</bitbar.author>
 # <bitbar.author.github>cheeaun</bitbar.author.github>
 # <bitbar.desc>Progress bar for the year</bitbar.desc>
-# <bitbar.image></bitbar.image>
+# <bitbar.image>https://raw.githubusercontent.com/cheeaun/xbar-plugins/main/year-progress/screenshot.png</bitbar.image>
 # <bitbar.abouturl>https://github.com/cheeaun/xbar-plugins</bitbar.abouturl>
 
 days=$(date +%j)

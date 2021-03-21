@@ -5,7 +5,7 @@
 # <bitbar.author>Lim Chee Aun</bitbar.author>
 # <bitbar.author.github>cheeaun</bitbar.author.github>
 # <bitbar.desc>Singapore rain radar quick preview</bitbar.desc>
-# <bitbar.image></bitbar.image>
+# <bitbar.image>https://github.com/cheeaun/xbar-plugins/raw/main/check-weather-sg/screenshot.png</bitbar.image>
 # <bitbar.abouturl>https://github.com/cheeaun/xbar-plugins</bitbar.abouturl>
 
 radar=$(curl -s https://rainshot.checkweather.sg/ | base64)

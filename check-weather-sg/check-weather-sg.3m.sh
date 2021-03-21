@@ -16,31 +16,31 @@ hour=$(date +%H)
 
 if (( $hour >= 7 & && $hour <= 19 ))
   then
-  if (( sgCoverage > 5))
+  if (( sgCoverage > 75))
   then
-    icon=🌤
-  elif (( sgCoverage > 20 ))
-  then
-    icon=🌦
+    icon=⛈
   elif (( sgCoverage > 50 ))
   then
     icon=🌧
-  elif (( sgCoverage > 75 ))
+  elif (( sgCoverage > 20 ))
   then
-    icon=⛈
+    icon=🌦
+  elif (( sgCoverage > 5 ))
+  then
+    icon=🌤
   else
     icon=🌞
   fi
 else
-  if (( sgCoverage > 5 ))
+  if (( sgCoverage > 75 ))
   then
-    icon=☁️
+    icon=⛈
   elif (( sgCoverage > 50 ))
   then
     icon=🌧
-  elif (( sgCoverage > 75 ))
+  elif (( sgCoverage > 5 ))
   then
-    icon=⛈
+    icon=☁️
   else
     icon=🌝
   fi
